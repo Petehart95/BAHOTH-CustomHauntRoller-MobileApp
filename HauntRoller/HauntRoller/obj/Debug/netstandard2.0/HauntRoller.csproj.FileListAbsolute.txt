@@ -1,0 +1,28 @@
+D:\Documents\Github\New folder\HauntRoller\HauntRoller\HauntRoller\obj\Debug\netstandard2.0\HauntRoller.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\Github\New folder\HauntRoller\HauntRoller\HauntRoller\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Documents\Github\New folder\HauntRoller\HauntRoller\HauntRoller\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Documents\Github\New folder\HauntRoller\HauntRoller\HauntRoller\obj\Debug\netstandard2.0\HauntRoller.AssemblyInfoInputs.cache
+D:\Documents\Github\New folder\HauntRoller\HauntRoller\HauntRoller\obj\Debug\netstandard2.0\HauntRoller.AssemblyInfo.cs
+D:\Documents\Github\New folder\HauntRoller\HauntRoller\HauntRoller\obj\Debug\netstandard2.0\HauntRoller.csproj.CoreCompileInputs.cache
+D:\Documents\Github\New folder\HauntRoller\HauntRoller\HauntRoller\bin\Debug\netstandard2.0\HauntRoller.deps.json
+D:\Documents\Github\New folder\HauntRoller\HauntRoller\HauntRoller\bin\Debug\netstandard2.0\HauntRoller.dll
+D:\Documents\Github\New folder\HauntRoller\HauntRoller\HauntRoller\bin\Debug\netstandard2.0\ref\HauntRoller.dll
+D:\Documents\Github\New folder\HauntRoller\HauntRoller\HauntRoller\bin\Debug\netstandard2.0\HauntRoller.pdb
+D:\Documents\Github\New folder\HauntRoller\HauntRoller\HauntRoller\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Documents\Github\New folder\HauntRoller\HauntRoller\HauntRoller\obj\Debug\netstandard2.0\HauntRoller.dll
+D:\Documents\Github\New folder\HauntRoller\HauntRoller\HauntRoller\obj\Debug\netstandard2.0\ref\HauntRoller.dll
+D:\Documents\Github\New folder\HauntRoller\HauntRoller\HauntRoller\obj\Debug\netstandard2.0\HauntRoller.pdb
+D:\Documents\Github\HauntRoller\HauntRoller\HauntRoller\bin\Debug\netstandard2.0\HauntRoller.deps.json
+D:\Documents\Github\HauntRoller\HauntRoller\HauntRoller\bin\Debug\netstandard2.0\HauntRoller.dll
+D:\Documents\Github\HauntRoller\HauntRoller\HauntRoller\bin\Debug\netstandard2.0\ref\HauntRoller.dll
+D:\Documents\Github\HauntRoller\HauntRoller\HauntRoller\bin\Debug\netstandard2.0\HauntRoller.pdb
+D:\Documents\Github\HauntRoller\HauntRoller\HauntRoller\obj\Debug\netstandard2.0\HauntRoller.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\Github\HauntRoller\HauntRoller\HauntRoller\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Documents\Github\HauntRoller\HauntRoller\HauntRoller\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+D:\Documents\Github\HauntRoller\HauntRoller\HauntRoller\obj\Debug\netstandard2.0\HauntRoller.AssemblyInfoInputs.cache
+D:\Documents\Github\HauntRoller\HauntRoller\HauntRoller\obj\Debug\netstandard2.0\HauntRoller.AssemblyInfo.cs
+D:\Documents\Github\HauntRoller\HauntRoller\HauntRoller\obj\Debug\netstandard2.0\HauntRoller.csproj.CoreCompileInputs.cache
+D:\Documents\Github\HauntRoller\HauntRoller\HauntRoller\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Documents\Github\HauntRoller\HauntRoller\HauntRoller\obj\Debug\netstandard2.0\HauntRoller.dll
+D:\Documents\Github\HauntRoller\HauntRoller\HauntRoller\obj\Debug\netstandard2.0\ref\HauntRoller.dll
+D:\Documents\Github\HauntRoller\HauntRoller\HauntRoller\obj\Debug\netstandard2.0\HauntRoller.pdb

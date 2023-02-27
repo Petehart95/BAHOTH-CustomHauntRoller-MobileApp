@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HauntRoller.MainPage">
+
+    <StackLayout Margin="20,35,20,25" >
+
+        <Label x:Name="TitleLabel" Text="Betrayal at House on the Hill"
+               VerticalOptions="CenterAndExpand"
+               HorizontalTextAlignment="Center"
+               FontSize="24"
+               FontAttributes="Bold"
+               BackgroundColor="White" />
+        <Label x:Name = "OmenLabel" Text=""
+                VerticalOptions="Center"
+                BackgroundColor="White" />
+        <Label x:Name = "RolledLabel" Text=""
+                VerticalOptions="Center"
+                BackgroundColor="White" />
+        <Button x:Name ="HauntButton" Text="Click me" 
+                VerticalOptions="Center"
+                Clicked="HauntButton_Clicked"
+                TextColor="Green"
+                BackgroundColor="Black"
+                FontSize="18"
+                BorderWidth="5"
+                CornerRadius="5"
+                WidthRequest="25"
+                HeightRequest="75" />
+
+        <Button x:Name = "ResetButton" Text="Reset" 
+                VerticalOptions="End"
+                Clicked="ResetButton_Clicked"
+                TextColor="Green"
+                BackgroundColor="Black"
+                FontSize="18"
+                BorderWidth="5"
+                CornerRadius="5"
+                WidthRequest="75"
+                HeightRequest="75" />
+        <Label x:Name ="HauntLabel" Text="Get fucked"
+                VerticalOptions="FillAndExpand"
+                BackgroundColor="White" />
+
+    </StackLayout>
+</ContentPage>
