@@ -22,7 +22,7 @@ namespace HauntRoller
         public static void HauntRandomiser()
         {
             Random rnd = new Random();
-            hauntThreshold = rnd.Next(4, 8);
+            hauntThreshold = rnd.Next(4, 10);
         }
 
         public static void AddNumberTrack()
@@ -31,16 +31,18 @@ namespace HauntRoller
         }
 
         //check if the rolled amount exceeds the threshold
-        public static void CheckHaunt(int total)
+        public static bool CheckHaunt(int total)
         {
             if (total >= hauntThreshold)
             {
-                hauntFlag = true;
+                return hauntFlag = true;
             }
             else
             {
-                hauntFlag = false;
+                AddNumberTrack();
+                return hauntFlag = false;
             }
+
 
         }
         //when the game is over, you can reset the haunt variables

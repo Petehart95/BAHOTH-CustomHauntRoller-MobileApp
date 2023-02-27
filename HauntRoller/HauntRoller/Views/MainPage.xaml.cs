@@ -10,7 +10,7 @@ namespace HauntRoller
 {
     public partial class MainPage : ContentPage
     {
-        string numberTrackLabelTxt = "YOU DREW AN OMEN! Number track is at ";
+
         string rolledLabelTxt = "";
         Die dice = new Die();
         
@@ -26,44 +26,38 @@ namespace HauntRoller
             dice.ResetDice();
             HauntButton.TextColor = Color.FromHex("50C878");
             HauntButton.Text = "Click Me!";
-            //HauntButton.IsEnabled = true;
+
             OmenLabel.Text = "";
             HauntLabel.Text = "";
             RolledLabel.Text = "";
 
+            //HauntButton.IsEnabled = true;
         }
         void HauntButton_Clicked(object sender, EventArgs e)
         {
-            dice.RollDice(Haunt.numberTrack);
-            OmenLabel.Text = SetNumberTrackText(Haunt.numberTrack, numberTrackLabelTxt);
-            RolledLabel.Text = SetRolledText(dice.total, Haunt.numberTrack);
-            Haunt.AddNumberTrack();
-            Haunt.CheckHaunt(dice.total);
-
             if (Haunt.hauntFlag == false)
             {
-                (sender as Button).Text = "Nothing happens...";
-                HauntLabel.Text = "Roll again if you discover another omen...";
+                dice.RollDice(Haunt.numberTrack);
+                OmenLabel.Text = "YOU DREW AN OMEN! Number track is at " + Haunt.numberTrack;
+                RolledLabel.Text = "You rolled a " + dice.total + "! ( " + dice.PrintDice() + ")";
+
+                if (Haunt.CheckHaunt(dice.total) == false)
+                {
+                    (sender as Button).Text = "Nothing happens...";
+                    HauntLabel.Text = "Roll again if you discover another omen...";
+                }
+                else
+                {
+                    (sender as Button).Text = "SOMETHING HAPPENS, A HAUNT BEGINS!!!";
+                    (sender as Button).TextColor = Color.FromHex("FF0000");
+
+                    HauntLabel.Text = "The haunt threshold this time was " + Haunt.hauntThreshold;
+
+                    //(sender as Button).IsEnabled = false;
+                }
             }
-            else
-            {
-                (sender as Button).Text = "SOMETHING HAPPENS, A HAUNT BEGINS!!!";
-                (sender as Button).TextColor = Color.FromHex("FF0000");
-                //(sender as Button).IsEnabled = false;
-
-                HauntLabel.Text = SetNumberTrackText(Haunt.hauntThreshold, "The haunt threshold this time was ");
-
-            }
-        }
-        public static string SetRolledText(int rolledTotal, int numberTrack)
-        {
-            return "You rolled a " + rolledTotal + " from " + numberTrack + " dice";
         }
 
-        public static string SetNumberTrackText(int numberTrack, string inputString)
-        {
-            return inputString + Convert.ToString(numberTrack);
-        }
 
  
     }

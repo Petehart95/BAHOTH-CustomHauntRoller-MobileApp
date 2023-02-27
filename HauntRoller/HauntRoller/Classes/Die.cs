@@ -26,12 +26,24 @@ namespace HauntRoller
         //Roll total amount of dice, but return total and exact numbers rolled.
         public void RollDice(int totalDice)
         {
+            int result;
             ResetDice();
             for (int i = 0; i < totalDice; i++)
             {
-                total += RollDie();
-                diceList.Add(RollDie());
+                result = RollDie();
+                total += result;
+                diceList.Add(result);
             }
+        }
+        //Provide a string which prints the result of each individual die
+        public string PrintDice()
+        {
+            string outstr = "";
+            for (int i = 0; i < diceList.Count; i++)
+            {
+                outstr += diceList[i] + " ";
+            }
+            return outstr;
         }
         //Clear the totals between rounds of rolling, no need to store between rounds.
         public void ResetDice()
