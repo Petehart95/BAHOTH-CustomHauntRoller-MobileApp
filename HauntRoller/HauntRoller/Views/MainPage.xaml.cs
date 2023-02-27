@@ -13,29 +13,32 @@ namespace HauntRoller
         string numberTrackLabelTxt = "YOU DREW AN OMEN! Number track is at ";
         string rolledLabelTxt = "";
         Die dice = new Die();
-
+        
         public MainPage()
         {
+            Haunt.ResetHaunt();
+   
             InitializeComponent();
         }
         void ResetButton_Clicked(object sender, EventArgs e)
         {
-
+            Haunt.ResetHaunt();
+            dice.ResetDice();
             HauntButton.TextColor = Color.FromHex("50C878");
             HauntButton.Text = "Click Me!";
-            HauntButton.IsEnabled = true;
-
+            //HauntButton.IsEnabled = true;
+            OmenLabel.Text = "";
             HauntLabel.Text = "";
-            RolledLabel.Text = SetRolledText(dice.total, Haunt.numberTrack);
+            RolledLabel.Text = "";
 
         }
         void HauntButton_Clicked(object sender, EventArgs e)
         {
+            dice.RollDice(Haunt.numberTrack);
             OmenLabel.Text = SetNumberTrackText(Haunt.numberTrack, numberTrackLabelTxt);
-            
             RolledLabel.Text = SetRolledText(dice.total, Haunt.numberTrack);
             Haunt.AddNumberTrack();
-            Haunt.CheckHaunt(dice.total, Haunt.hauntThreshold);
+            Haunt.CheckHaunt(dice.total);
 
             if (Haunt.hauntFlag == false)
             {
@@ -46,7 +49,7 @@ namespace HauntRoller
             {
                 (sender as Button).Text = "SOMETHING HAPPENS, A HAUNT BEGINS!!!";
                 (sender as Button).TextColor = Color.FromHex("FF0000");
-                (sender as Button).IsEnabled = false;
+                //(sender as Button).IsEnabled = false;
 
                 HauntLabel.Text = SetNumberTrackText(Haunt.hauntThreshold, "The haunt threshold this time was ");
 

@@ -8,7 +8,7 @@ namespace HauntRoller
     {
         public static int numberTrack;
         public static int hauntThreshold;
-        public static bool hauntFlag;
+        public static bool hauntFlag = false;
 
         //constructor
         //public Haunt ()
@@ -31,9 +31,9 @@ namespace HauntRoller
         }
 
         //check if the rolled amount exceeds the threshold
-        public static void CheckHaunt(int total, int threshold)
+        public static void CheckHaunt(int total)
         {
-            if (total >= threshold)
+            if (total >= hauntThreshold)
             {
                 hauntFlag = true;
             }

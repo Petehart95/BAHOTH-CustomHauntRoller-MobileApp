@@ -998,11 +998,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\Github\\HauntRoller\\HauntRoller\\HauntRoller.iOS\\HauntRoller.iOS.csproj",
+      "projectUniqueName": "D:\\Documents\\Github\\BetrayalAtHouseOnTheHill-CustomHauntRoller\\HauntRoller\\HauntRoller.iOS\\HauntRoller.iOS.csproj",
       "projectName": "HauntRoller.iOS",
-      "projectPath": "D:\\Documents\\Github\\HauntRoller\\HauntRoller\\HauntRoller.iOS\\HauntRoller.iOS.csproj",
+      "projectPath": "D:\\Documents\\Github\\BetrayalAtHouseOnTheHill-CustomHauntRoller\\HauntRoller\\HauntRoller.iOS\\HauntRoller.iOS.csproj",
       "packagesPath": "C:\\Users\\Peter Hart\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\Github\\HauntRoller\\HauntRoller\\HauntRoller.iOS\\obj\\",
+      "outputPath": "D:\\Documents\\Github\\BetrayalAtHouseOnTheHill-CustomHauntRoller\\HauntRoller\\HauntRoller.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1025,8 +1025,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\Documents\\Github\\HauntRoller\\HauntRoller\\HauntRoller\\HauntRoller.csproj": {
-              "projectPath": "D:\\Documents\\Github\\HauntRoller\\HauntRoller\\HauntRoller\\HauntRoller.csproj"
+            "D:\\Documents\\Github\\BetrayalAtHouseOnTheHill-CustomHauntRoller\\HauntRoller\\HauntRoller\\HauntRoller.csproj": {
+              "projectPath": "D:\\Documents\\Github\\BetrayalAtHouseOnTheHill-CustomHauntRoller\\HauntRoller\\HauntRoller\\HauntRoller.csproj"
             }
           }
         }

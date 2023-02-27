@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g30D3cdvsr1Lyv9DGC18DaJwCNq84qAjTQt77GqCkldfdGvDCxU8I79RV8MzB1nEHD/hqXFnCFh9TzxDtZHh2w==",
+  "dgSpecHash": "+2v4jsjOyCbPS8KxhbVrM95z8g07tKtcpYlfPi1ThXz7DTsDZ5Y9jZVsYS9N9Pjbi0wUAZ+J/gWorVE40BWngQ==",
   "success": true,
-  "projectFilePath": "D:\\Documents\\Github\\HauntRoller\\HauntRoller\\HauntRoller.iOS\\HauntRoller.iOS.csproj",
+  "projectFilePath": "D:\\Documents\\Github\\BetrayalAtHouseOnTheHill-CustomHauntRoller\\HauntRoller\\HauntRoller.iOS\\HauntRoller.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Peter Hart\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",

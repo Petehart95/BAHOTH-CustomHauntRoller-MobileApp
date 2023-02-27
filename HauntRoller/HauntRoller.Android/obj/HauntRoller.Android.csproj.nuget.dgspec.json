@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\Github\\HauntRoller\\HauntRoller\\HauntRoller.Android\\HauntRoller.Android.csproj": {}
+    "D:\\Documents\\Github\\BetrayalAtHouseOnTheHill-CustomHauntRoller\\HauntRoller\\HauntRoller.Android\\HauntRoller.Android.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\Github\\HauntRoller\\HauntRoller\\HauntRoller.Android\\HauntRoller.Android.csproj": {
+    "D:\\Documents\\Github\\BetrayalAtHouseOnTheHill-CustomHauntRoller\\HauntRoller\\HauntRoller.Android\\HauntRoller.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\Github\\HauntRoller\\HauntRoller\\HauntRoller.Android\\HauntRoller.Android.csproj",
+        "projectUniqueName": "D:\\Documents\\Github\\BetrayalAtHouseOnTheHill-CustomHauntRoller\\HauntRoller\\HauntRoller.Android\\HauntRoller.Android.csproj",
         "projectName": "HauntRoller.Android",
-        "projectPath": "D:\\Documents\\Github\\HauntRoller\\HauntRoller\\HauntRoller.Android\\HauntRoller.Android.csproj",
+        "projectPath": "D:\\Documents\\Github\\BetrayalAtHouseOnTheHill-CustomHauntRoller\\HauntRoller\\HauntRoller.Android\\HauntRoller.Android.csproj",
         "packagesPath": "C:\\Users\\Peter Hart\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\Github\\HauntRoller\\HauntRoller\\HauntRoller.Android\\obj\\",
+        "outputPath": "D:\\Documents\\Github\\BetrayalAtHouseOnTheHill-CustomHauntRoller\\HauntRoller\\HauntRoller.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -34,8 +34,8 @@
         "frameworks": {
           "monoandroid11.0": {
             "projectReferences": {
-              "D:\\Documents\\Github\\HauntRoller\\HauntRoller\\HauntRoller\\HauntRoller.csproj": {
-                "projectPath": "D:\\Documents\\Github\\HauntRoller\\HauntRoller\\HauntRoller\\HauntRoller.csproj"
+              "D:\\Documents\\Github\\BetrayalAtHouseOnTheHill-CustomHauntRoller\\HauntRoller\\HauntRoller\\HauntRoller.csproj": {
+                "projectPath": "D:\\Documents\\Github\\BetrayalAtHouseOnTheHill-CustomHauntRoller\\HauntRoller\\HauntRoller\\HauntRoller.csproj"
               }
             }
           }
@@ -56,14 +56,14 @@
         }
       }
     },
-    "D:\\Documents\\Github\\HauntRoller\\HauntRoller\\HauntRoller\\HauntRoller.csproj": {
+    "D:\\Documents\\Github\\BetrayalAtHouseOnTheHill-CustomHauntRoller\\HauntRoller\\HauntRoller\\HauntRoller.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\Github\\HauntRoller\\HauntRoller\\HauntRoller\\HauntRoller.csproj",
+        "projectUniqueName": "D:\\Documents\\Github\\BetrayalAtHouseOnTheHill-CustomHauntRoller\\HauntRoller\\HauntRoller\\HauntRoller.csproj",
         "projectName": "HauntRoller",
-        "projectPath": "D:\\Documents\\Github\\HauntRoller\\HauntRoller\\HauntRoller\\HauntRoller.csproj",
+        "projectPath": "D:\\Documents\\Github\\BetrayalAtHouseOnTheHill-CustomHauntRoller\\HauntRoller\\HauntRoller\\HauntRoller.csproj",
         "packagesPath": "C:\\Users\\Peter Hart\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\Github\\HauntRoller\\HauntRoller\\HauntRoller\\obj\\",
+        "outputPath": "D:\\Documents\\Github\\BetrayalAtHouseOnTheHill-CustomHauntRoller\\HauntRoller\\HauntRoller\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

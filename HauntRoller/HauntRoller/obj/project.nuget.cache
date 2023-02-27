@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MCqsm5gVVwll+yqI0sq8F4CXjTR4jgm75+QhUFAnmk+jV6rBSRUuJNv65S5R1Hgd9pektZgjE6KmOsDwI0FqHA==",
+  "dgSpecHash": "pj6u+QGkweWqNM9M+Nlf3ZYOStzq74R+TKP8YTSVWTXCL0fsvsG+XKyzKlbTmIpKZf9YxSkBsfNTQItoAjutqg==",
   "success": true,
-  "projectFilePath": "D:\\Documents\\Github\\HauntRoller\\HauntRoller\\HauntRoller\\HauntRoller.csproj",
+  "projectFilePath": "D:\\Documents\\Github\\BetrayalAtHouseOnTheHill-CustomHauntRoller\\HauntRoller\\HauntRoller\\HauntRoller.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
