@@ -14,9 +14,9 @@ namespace HauntRoller
         
         public MainPage()
         {
-            Haunt.ResetHaunt(); //need to reset haunt as the page initialises, so that the haunt randomiser can activate
-   
             InitializeComponent();
+            CheckSettings();
+            Haunt.ResetHaunt(); //need to reset haunt as the page initialises, so that the haunt randomiser can activate
             BackgroundImageSource = "teastain.jpeg";
         }
         void ResetButton_Clicked(object sender, EventArgs e)
@@ -52,7 +52,23 @@ namespace HauntRoller
             }
         }
 
+        void CheckSettings()
+        {
+            if (SettingsHandler.diceEnabled == true)
+            {
+                HauntButton.IsVisible = true;
+            }
+            else
+            {
+                HauntButton.IsVisible = false;
+            }
+        }
 
- 
+        void SettingsButtonClicked_Handler(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new SettingsPage());
+        }
+
+
     }
 }

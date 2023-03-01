@@ -33,6 +33,7 @@ D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\Haunt
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller\obj\Debug\netstandard2.0\HauntRoller.GeneratedMSBuildEditorConfig.editorconfig
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller\obj\Debug\netstandard2.0\App.xaml.g.cs
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller\obj\Debug\netstandard2.0\Views\SettingsPage.xaml.g.cs
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller\obj\Debug\netstandard2.0\HauntRoller.AssemblyInfoInputs.cache
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller\obj\Debug\netstandard2.0\HauntRoller.AssemblyInfo.cs
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller\obj\Debug\netstandard2.0\HauntRoller.csproj.CoreCompileInputs.cache
@@ -40,3 +41,4 @@ D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\Haunt
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller\obj\Debug\netstandard2.0\HauntRoller.dll
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller\obj\Debug\netstandard2.0\ref\HauntRoller.dll
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller\obj\Debug\netstandard2.0\HauntRoller.pdb
+D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller\obj\Debug\netstandard2.0\HauntRoller.csproj.AssemblyReference.cache

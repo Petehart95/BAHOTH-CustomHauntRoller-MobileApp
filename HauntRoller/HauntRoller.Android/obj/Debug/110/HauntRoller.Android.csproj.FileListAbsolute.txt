@@ -1208,6 +1208,7 @@ D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\Haunt
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\res\mipmap-xxxhdpi\launcher_foreground.png
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\res\drawable\teastain.jpg
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\res\drawable\paper.png
+D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\res\drawable\gear.png
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\uploadflags.txt
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\resolvedassemblies.hash
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\android\assets\FormsViewGroup.dll
