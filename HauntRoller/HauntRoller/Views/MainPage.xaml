@@ -4,20 +4,28 @@
              x:Class="HauntRoller.MainPage">
 
     <StackLayout Margin="20,35,20,25" >
-
-        <Label x:Name="TitleLabel" Text="Betrayal at House on the Hill"
-               VerticalOptions="CenterAndExpand"
+       
+        <Label x:Name="TitleLabel" 
+               Text="Betrayal at House on the Hill"
+               FontFamily="Xerox" 
+               VerticalOptions="Center"
                HorizontalTextAlignment="Center"
-               FontSize="24"
-               FontAttributes="Bold"
-               BackgroundColor="White" />
-        <Label x:Name = "OmenLabel" Text=""
+               FontSize="28"/>
+        <Label x:Name="TitleLabel2" 
+               Text="Homebrew Haunt Roller"
+               FontFamily="Xerox" 
+               VerticalOptions="Center"
+               HorizontalTextAlignment="Center"
+               FontSize="20"/>
+        <Label x:Name = "OmenLabel" 
+                Text=""
                 VerticalOptions="Center"
-                BackgroundColor="White" />
+               HorizontalTextAlignment="Center"/>
         <Label x:Name = "RolledLabel" Text=""
                 VerticalOptions="Center"
-                BackgroundColor="White" />
+               HorizontalTextAlignment="Center"/>
         <Button x:Name ="HauntButton" Text="Click me" 
+                FontFamily="Xerox" 
                 VerticalOptions="Center"
                 Clicked="HauntButton_Clicked"
                 TextColor="Green"
@@ -25,10 +33,12 @@
                 FontSize="18"
                 BorderWidth="5"
                 CornerRadius="5"
-                WidthRequest="25"
-                HeightRequest="75" />
+                WidthRequest="125"
+                HeightRequest="75" 
+                CharacterSpacing="2"/>
 
         <Button x:Name = "ResetButton" Text="Reset" 
+                FontFamily="Xerox" 
                 VerticalOptions="End"
                 Clicked="ResetButton_Clicked"
                 TextColor="Green"
@@ -37,10 +47,13 @@
                 BorderWidth="5"
                 CornerRadius="5"
                 WidthRequest="75"
-                HeightRequest="75" />
-        <Label x:Name ="HauntLabel" Text="Get fucked"
+                HeightRequest="75" 
+                CharacterSpacing="2"/>
+
+        <Label x:Name ="HauntLabel" Text=""
                 VerticalOptions="FillAndExpand"
-                BackgroundColor="White" />
+               HorizontalTextAlignment="Center"/>
 
     </StackLayout>
 </ContentPage>
+    

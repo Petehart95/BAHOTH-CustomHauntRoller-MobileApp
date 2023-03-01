@@ -10,15 +10,14 @@ namespace HauntRoller
 {
     public partial class MainPage : ContentPage
     {
-
-        string rolledLabelTxt = "";
         Die dice = new Die();
         
         public MainPage()
         {
-            Haunt.ResetHaunt();
+            Haunt.ResetHaunt(); //need to reset haunt as the page initialises, so that the haunt randomiser can activate
    
             InitializeComponent();
+            BackgroundImageSource = "teastain.jpeg";
         }
         void ResetButton_Clicked(object sender, EventArgs e)
         {
@@ -30,8 +29,6 @@ namespace HauntRoller
             OmenLabel.Text = "";
             HauntLabel.Text = "";
             RolledLabel.Text = "";
-
-            //HauntButton.IsEnabled = true;
         }
         void HauntButton_Clicked(object sender, EventArgs e)
         {
@@ -44,16 +41,13 @@ namespace HauntRoller
                 if (Haunt.CheckHaunt(dice.total) == false)
                 {
                     (sender as Button).Text = "Nothing happens...";
-                    HauntLabel.Text = "Roll again if you discover another omen...";
                 }
                 else
                 {
-                    (sender as Button).Text = "SOMETHING HAPPENS, A HAUNT BEGINS!!!";
+                    (sender as Button).Text = "SOMETHING HAPPENS...\nA HAUNT BEGINS";
                     (sender as Button).TextColor = Color.FromHex("FF0000");
 
                     HauntLabel.Text = "The haunt threshold this time was " + Haunt.hauntThreshold;
-
-                    //(sender as Button).IsEnabled = false;
                 }
             }
         }
