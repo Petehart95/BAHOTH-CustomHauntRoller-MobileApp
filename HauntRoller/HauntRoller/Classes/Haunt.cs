@@ -27,7 +27,10 @@ namespace HauntRoller
 
         public static void AddNumberTrack()
         {
-            numberTrack++;
+            if (numberTrack != 9)
+            {
+                numberTrack++;
+            }
         }
 
         //check if the rolled amount exceeds the threshold

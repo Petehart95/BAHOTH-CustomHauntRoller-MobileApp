@@ -1150,6 +1150,15 @@ D:\Documents\Github\HauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\st
 D:\Documents\Github\HauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 D:\Documents\Github\HauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 D:\Documents\Github\HauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\bin\Debug\HauntRoller.Android.dll
+D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\bin\Debug\HauntRoller.Android.pdb
+D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\bin\Debug\com.companyname.hauntroller.apk
+D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\bin\Debug\com.companyname.hauntroller.aab
+D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\bin\Debug\com.companyname.hauntroller-Signed.aab
+D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\bin\Debug\com.companyname.hauntroller-Signed.apk
+D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\bin\Debug\com.companyname.hauntroller-Signed.apk.idsig
+D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\bin\Debug\HauntRoller.dll
+D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\bin\Debug\HauntRoller.pdb
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\MonoAndroid,Version=v11.0.AssemblyAttributes.cs
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\build.props
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\adb.props
@@ -1173,15 +1182,6 @@ D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\Haunt
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\lp\76\jl\files.cache
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\lp\79\jl\files.cache
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\lp\87\jl\files.cache
-D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\bin\Debug\HauntRoller.Android.dll
-D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\bin\Debug\HauntRoller.Android.pdb
-D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\bin\Debug\com.companyname.hauntroller.apk
-D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\bin\Debug\com.companyname.hauntroller.aab
-D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\bin\Debug\com.companyname.hauntroller-Signed.aab
-D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\bin\Debug\com.companyname.hauntroller-Signed.apk
-D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\bin\Debug\com.companyname.hauntroller-Signed.apk.idsig
-D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\bin\Debug\HauntRoller.dll
-D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\bin\Debug\HauntRoller.pdb
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\R.txt
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\R.cs.flag
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\HauntRoller.Android.csproj.CoreCompileInputs.cache
@@ -1206,6 +1206,8 @@ D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\Haunt
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\res\mipmap-xxhdpi\launcher_foreground.png
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\res\mipmap-xxxhdpi\icon.png
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\res\mipmap-xxxhdpi\launcher_foreground.png
+D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\res\drawable\teastain.jpg
+D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\res\drawable\paper.png
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\uploadflags.txt
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\resolvedassemblies.hash
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\android\assets\FormsViewGroup.dll
@@ -1726,5 +1728,3 @@ D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\Haunt
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
-D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\res\drawable\teastain.jpg
-D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\res\drawable\paper.png
