@@ -23,20 +23,47 @@ namespace HauntRoller
         {
             Haunt.ResetHaunt();
             dice.ResetDice();
-            HauntButton.TextColor = Color.FromHex("50C878");
-            HauntButton.Text = "Click Me!";
+            AutoHauntButton.TextColor = Color.FromHex("50C878");
+            AutoHauntButton.Text = "Roll";
+
+            ManHauntButton.TextColor = Color.FromHex("50C878");
+            ManHauntButton.Text = "Check Roll";
+            ManRollEntry.Text = "";
 
             OmenLabel.Text = "";
             HauntLabel.Text = "";
             RolledLabel.Text = "";
         }
-        void HauntButton_Clicked(object sender, EventArgs e)
+        void AutoHauntButton_Clicked(object sender, EventArgs e)
         {
             if (Haunt.hauntFlag == false)
             {
                 dice.RollDice(Haunt.numberTrack);
-                OmenLabel.Text = "YOU DREW AN OMEN! Number track is at " + Haunt.numberTrack;
+                OmenLabel.Text = "Number track is at " + Haunt.numberTrack;
                 RolledLabel.Text = "You rolled a " + dice.total + "! ( " + dice.PrintDice() + ")";
+                if (Haunt.CheckHaunt(dice.total) == false)
+                {
+                    (sender as Button).Text = "Nothing happens...";
+
+                }
+                else
+                {
+                    (sender as Button).Text = "SOMETHING HAPPENS...\nA HAUNT BEGINS";
+                    (sender as Button).TextColor = Color.FromHex("FF0000");
+
+                    HauntLabel.Text = "The haunt threshold this time was " + Haunt.hauntThreshold;
+                    
+                }
+            }
+        }
+        void ManHauntButton_Clicked(object sender, EventArgs e)
+        {
+            if (Haunt.hauntFlag == false)
+            {
+                dice.total = Convert.ToInt32(ManRollEntry.Text);
+                OmenLabel.Text = "Number track is at " + Haunt.numberTrack;
+                RolledLabel.Text = "You rolled a " + dice.total + "!";
+                ManRollEntry.Text = "";
 
                 if (Haunt.CheckHaunt(dice.total) == false)
                 {
@@ -56,11 +83,22 @@ namespace HauntRoller
         {
             if (SettingsHandler.diceEnabled == true)
             {
-                HauntButton.IsVisible = true;
+                //dice rolls
+                AutoHauntButton.IsVisible = true;
+                
+                //manual rolls
+                ManHauntButton.IsVisible = false;
+                ManLabel.IsVisible = false;
+                ManRollEntry.IsVisible = false;
             }
             else
             {
-                HauntButton.IsVisible = false;
+                //dice rolls
+                AutoHauntButton.IsVisible = false;
+                //manual rolls
+                ManHauntButton.IsVisible = true;
+                ManLabel.IsVisible = true;
+                ManRollEntry.IsVisible = true;
             }
         }
 

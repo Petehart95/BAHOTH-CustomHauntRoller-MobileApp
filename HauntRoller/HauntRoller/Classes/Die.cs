@@ -17,7 +17,7 @@ namespace HauntRoller
         }
 
         //roll 1 die [0,1,2]
-        public int RollDie()
+        private int _rollDie()
         {
             Random rnd = new Random();
             return rnd.Next(0, 3);
@@ -30,7 +30,7 @@ namespace HauntRoller
             ResetDice();
             for (int i = 0; i < totalDice; i++)
             {
-                result = RollDie();
+                result = _rollDie();
                 total += result;
                 diceList.Add(result);
             }
@@ -45,6 +45,7 @@ namespace HauntRoller
             }
             return outstr;
         }
+
         //Clear the totals between rounds of rolling, no need to store between rounds.
         public void ResetDice()
         {

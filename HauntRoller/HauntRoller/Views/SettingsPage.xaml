@@ -2,9 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:HauntRoller"
-             x:Class="HauntRoller.SettingsPage" NavigationPage.HasBackButton="True">
-
-        <StackLayout CascadeInputTransparent="False" IsClippedToBounds="True" IsTabStop="False" IsVisible="True" IsEnabled="True">
+             x:Class="HauntRoller.SettingsPage" NavigationPage.HasBackButton="False">
+    <NavigationPage.TitleView>
+        <Button x:Name="SaveButton" 
+                        Text="Save" 
+                        Clicked="SaveClicked_Handler"/>
+    </NavigationPage.TitleView>
+    <StackLayout CascadeInputTransparent="False" IsClippedToBounds="True" IsTabStop="False" IsVisible="True" IsEnabled="True">
 			<StackLayout.BindingContext>
 				<local:MainPage/>
 			</StackLayout.BindingContext>
