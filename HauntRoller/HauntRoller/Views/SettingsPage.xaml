@@ -13,10 +13,10 @@
     </NavigationPage.TitleView>
     
     <StackLayout Margin="0,20,0,0">
-        <Label Text="Settings" Margin="20" FontSize="Medium"></Label>
+        <Label Text="Settings" TextColor="DarkSlateGray" Margin="20" FontSize="Medium" FontAttributes="Bold"></Label>
         <StackLayout Orientation="Horizontal">
-            <Label Text="Dice Enabled" Margin="20"/>
-            <Button x:Name="DiceToggleButton" Text="On" Clicked="DiceToggleButtonClicked_Handler" />
+            <Label Text="Dice Enabled" Margin="20" TextColor="DarkSlateGray"/>
+            <Button x:Name="DiceToggleButton" Text="On" TextColor="DarkSlateGray" Clicked="DiceToggleButtonClicked_Handler" />
         </StackLayout>
     </StackLayout>
 </ContentPage>

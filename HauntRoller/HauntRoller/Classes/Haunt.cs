@@ -22,7 +22,7 @@ namespace HauntRoller
         public static void HauntRandomiser()
         {
             Random rnd = new Random();
-            hauntThreshold = rnd.Next(4, 12);
+            hauntThreshold = rnd.Next(4, 10);
         }
 
         public static void AddNumberTrack()

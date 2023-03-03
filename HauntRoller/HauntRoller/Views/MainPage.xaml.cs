@@ -85,16 +85,20 @@ namespace HauntRoller
             {
                 //dice rolls
                 AutoHauntButton.IsVisible = true;
-                
+                OmenLabel.IsVisible = true;
                 //manual rolls
+
                 ManHauntButton.IsVisible = false;
                 ManLabel.IsVisible = false;
                 ManRollEntry.IsVisible = false;
             }
             else
             {
+
+
                 //dice rolls
                 AutoHauntButton.IsVisible = false;
+                OmenLabel.IsVisible = false;
                 //manual rolls
                 ManHauntButton.IsVisible = true;
                 ManLabel.IsVisible = true;

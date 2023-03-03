@@ -36,13 +36,17 @@
                 FontFamily="Xerox" 
                 VerticalOptions="Center"
                 Clicked="AutoHauntButton_Clicked"
+                
                 TextColor="Green"
+                
                 BackgroundColor="Black"
+                
                 FontSize="18"
                 BorderWidth="5"
                 CornerRadius="5"
                 WidthRequest="125"
                 HeightRequest="75" 
+                
                 CharacterSpacing="2" IsTabStop="False"/>
         
         <Button x:Name ="ManHauntButton" Text="Check Haunt" 
@@ -61,7 +65,7 @@
                 IsVisible="False"/>
 
         <Label x:Name="ManLabel"
-               Text="Enter your haunt roll below and click roll...  (e.g. 3)"
+               Text="Enter your haunt roll and click the button above..."
                TextColor="DarkSlateGray"
                FontFamily="Xerox" 
                FontSize="Small"
@@ -71,6 +75,8 @@
                Text="" FontSize="Medium"
                FontFamily="Xerox" 
                TextColor="DarkSlateGray"
+               BackgroundColor="Transparent"
+               Opacity="15"
                IsVisible="false"
                Keyboard="Numeric"/>
         
