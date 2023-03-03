@@ -23,8 +23,11 @@
                HorizontalTextAlignment="Center"/>
         <Label x:Name = "RolledLabel" Text=""
                 VerticalOptions="Center"
+                HorizontalTextAlignment="Center"/>
+        <Label x:Name ="HauntLabel" Text=""
+                VerticalOptions="Center"
                HorizontalTextAlignment="Center"/>
-        <Button x:Name ="AutoHauntButton" Text="Roll" 
+        <Button x:Name ="AutoHauntButton" Text="Roll and Check Haunt" 
                 FontFamily="Xerox" 
                 VerticalOptions="Center"
                 Clicked="AutoHauntButton_Clicked"
@@ -86,9 +89,7 @@
                 HeightRequest="75" 
                 CharacterSpacing="2"/>
         
-        <Label x:Name ="HauntLabel" Text=""
-                VerticalOptions="FillAndExpand"
-               HorizontalTextAlignment="Center"/>
+
 
     </StackLayout>
 </ContentPage>

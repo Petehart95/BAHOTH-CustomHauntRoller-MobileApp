@@ -24,10 +24,10 @@ namespace HauntRoller
             Haunt.ResetHaunt();
             dice.ResetDice();
             AutoHauntButton.TextColor = Color.FromHex("50C878");
-            AutoHauntButton.Text = "Roll";
+            AutoHauntButton.Text = "Roll and Check Haunt";
 
             ManHauntButton.TextColor = Color.FromHex("50C878");
-            ManHauntButton.Text = "Check Roll";
+            ManHauntButton.Text = "Check Haunt";
             ManRollEntry.Text = "";
 
             OmenLabel.Text = "";
@@ -58,7 +58,7 @@ namespace HauntRoller
         }
         void ManHauntButton_Clicked(object sender, EventArgs e)
         {
-            if (Haunt.hauntFlag == false)
+            if (Haunt.hauntFlag == false  && ManRollEntry.Text.Length > 0)
             {
                 dice.total = Convert.ToInt32(ManRollEntry.Text);
                 OmenLabel.Text = "Number track is at " + Haunt.numberTrack;

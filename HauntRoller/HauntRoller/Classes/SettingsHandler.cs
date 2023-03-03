@@ -6,6 +6,6 @@ namespace HauntRoller
 {
     class SettingsHandler
     {
-        public static bool diceEnabled = true;
+        public static bool diceEnabled = false;
     }
 }

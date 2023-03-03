@@ -6,22 +6,17 @@
     <NavigationPage.TitleView>
         <Button x:Name="SaveButton" 
                         Text="Save" 
-                        Clicked="SaveClicked_Handler"/>
+                        Clicked="SaveClicked_Handler"
+                        Margin="0"
+                        HorizontalOptions="End"
+                        Background="transparent"/>
     </NavigationPage.TitleView>
-    <StackLayout CascadeInputTransparent="False" IsClippedToBounds="True" IsTabStop="False" IsVisible="True" IsEnabled="True">
-			<StackLayout.BindingContext>
-				<local:MainPage/>
-			</StackLayout.BindingContext>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-            <StackLayout Orientation="Horizontal">
-                <Label Text="Roll Dice On/Off"/>
-                <Button x:Name="DiceToggleButton" 
-                        Text="On" 
-                        Clicked="DiceToggleButtonClicked_Handler"/>
-            </StackLayout>
-            
-
+    
+    <StackLayout Margin="0,20,0,0">
+        <Label Text="Settings" Margin="20" FontSize="Medium"></Label>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Dice Enabled" Margin="20"/>
+            <Button x:Name="DiceToggleButton" Text="On" Clicked="DiceToggleButtonClicked_Handler" />
         </StackLayout>
+    </StackLayout>
 </ContentPage>
