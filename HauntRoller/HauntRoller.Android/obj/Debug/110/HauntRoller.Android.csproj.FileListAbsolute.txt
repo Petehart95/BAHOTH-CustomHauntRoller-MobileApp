@@ -1729,3 +1729,4 @@ D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\Haunt
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+D:\Documents\Github\BetrayalAtHouseOnTheHill-CustomHauntRoller\HauntRoller\HauntRoller.Android\obj\Debug\110\res\drawable\logo.jpg

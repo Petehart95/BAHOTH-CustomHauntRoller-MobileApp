@@ -3,28 +3,33 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HauntRoller.MainPage" NavigationPage.HasBackButton="False">
 
-   
+
     <StackLayout Margin="20,35,20,25" >
         <Label x:Name="TitleLabel" 
                Text="Betrayal at House on the Hill"
+               TextColor="DarkSlateGray"
                FontFamily="Xerox" 
                VerticalOptions="Center"
                HorizontalTextAlignment="Center"
                FontSize="28"/>
         <Label x:Name="TitleLabel2" 
                Text="Homebrew Haunt Roller"
+               TextColor="DarkRed"
                FontFamily="Xerox" 
                VerticalOptions="Center"
                HorizontalTextAlignment="Center"
                FontSize="20"/>
         <Label x:Name = "OmenLabel" 
                 Text=""
+                TextColor="DarkSlateGray"
                 VerticalOptions="Center"
                HorizontalTextAlignment="Center"/>
         <Label x:Name = "RolledLabel" Text=""
+                TextColor="DarkSlateGray"
                 VerticalOptions="Center"
                 HorizontalTextAlignment="Center"/>
         <Label x:Name ="HauntLabel" Text=""
+               TextColor="DarkSlateGray"
                 VerticalOptions="Center"
                HorizontalTextAlignment="Center"/>
         <Button x:Name ="AutoHauntButton" Text="Roll and Check Haunt" 
@@ -56,11 +61,16 @@
                 IsVisible="False"/>
 
         <Label x:Name="ManLabel"
-               Text="Enter your haunt roll below and click roll...(e.g. 3)"
+               Text="Enter your haunt roll below and click roll...  (e.g. 3)"
+               TextColor="DarkSlateGray"
+               FontFamily="Xerox" 
                FontSize="Small"
-               IsVisible="False"/>
+               IsVisible="False"
+               Padding="5"/>
         <Entry x:Name="ManRollEntry"
                Text="" FontSize="Medium"
+               FontFamily="Xerox" 
+               TextColor="DarkSlateGray"
                IsVisible="false"
                Keyboard="Numeric"/>
         
